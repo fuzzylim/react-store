@@ -1,4 +1,4 @@
-*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
+_This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)._
 
 # Sample React T-Shirt Store
 
@@ -50,3 +50,14 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Firebase CI Deployment
+
+### This should deploy when main is pushed.
+
+1. Create new firebase project
+1. Get Firebase tools `npm install -g firebase-tools`
+1. Update firebaserc to firebase project i.e soc-store
+1. create a ci token `firebase login:ci`
+1. Save to github secret as `FIREBASE_TOKEN`
+1. Free static site https://{your-name}.web.app/ i.e https://soc-store.web.app/
