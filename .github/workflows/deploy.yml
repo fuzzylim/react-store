@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: 10.x
         registry-url: https://npm.pkg.github.com/
-        scope: '@main'
+        scope: 'main'
     - run: npm install --global firebase-tools
     - run: npm install
     - run: firebase deploy
