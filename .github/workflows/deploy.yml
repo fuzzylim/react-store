@@ -3,7 +3,7 @@ name: deploy
 on:
   push:
     branches:
-      - google-pay
+      - main
 
 jobs:
   build:
@@ -15,8 +15,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 10.x
-        registry-url: https://npm.pkg.github.com/
-        scope: 'main'
     - run: npm install --global firebase-tools
     - run: npm install
     - run: firebase deploy
