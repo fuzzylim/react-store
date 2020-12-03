@@ -61,4 +61,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 1. create a ci token `firebase login:ci`
 1. Save to github secret as `FIREBASE_TOKEN`
 1. Push to `main`
-1. Free static site https://{your-name}.web.app/ i.e https://soc-store.web.app/
+1. Free static site https://{your-firebase-project-name}.web.app/ i.e https://soc-store.web.app/
