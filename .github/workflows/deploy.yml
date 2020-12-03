@@ -16,11 +16,9 @@ jobs:
       with:
         node-version: 10.x
         registry-url: https://npm.pkg.github.com/
-        scope: '@google-pay'
+        scope: '@main'
     - run: npm install --global firebase-tools
     - run: npm install
-      env:
-        NODE_AUTH_TOKEN: ${{secrets.PACKAGE_TOKEN}}
     - run: firebase deploy
       env:
         FIREBASE_TOKEN: ${{secrets.FIREBASE_TOKEN}}
