@@ -57,8 +57,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 1. Create new firebase project `https://console.firebase.google.com/`
 1. Get Firebase tools `npm install -g firebase-tools`
-1. Update firebaserc file to firebase project name i.e soc-store
 1. create a ci token `firebase login:ci`
 1. Save to github secret as `FIREBASE_TOKEN`
+1. Save to github secret as `FIREBASE_PROJECT`
 1. Push to `main`
 1. Free static site https://{your-firebase-project-name}.web.app/ i.e https://soc-store.web.app/
